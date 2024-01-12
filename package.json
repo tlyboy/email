@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.14.0",
+  "scripts": {
+    "build": "nitropack build",
+    "dev": "nitropack dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "nitropack prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitropack": "latest",
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "@types/nodemailer": "^6.4.14",
+    "eslint": "^8.56.0"
+  }
+}
