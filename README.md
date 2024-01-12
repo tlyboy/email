@@ -6,7 +6,7 @@
 
 ### .env 文件中配置
 
-```env
+```sh
 NODEMAILER_HOST="smtp.forwardemail.net"
 NODEMAILER_PORT="465"
 NODEMAILER_SECURE="true"
