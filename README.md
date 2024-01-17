@@ -39,9 +39,7 @@ console.log(json)
 
 ### docker compose
 
-```yml
-version: '3'
-
+```yaml
 services:
   proxy:
     image: tlyboy/email
