@@ -4,7 +4,7 @@
 
 ## 使用说明
 
-### .env 文件中配置
+### .env
 
 ```sh
 NODEMAILER_HOST="smtp.forwardemail.net"
@@ -37,16 +37,18 @@ const json = await response.json()
 console.log(json)
 ```
 
-### docker compose
+### compose.yaml
 
 ```yaml
 services:
   proxy:
     image: tlyboy/email
     restart: unless-stopped
-    network_mode: host
+    # network_mode: "host"
+    ports:
+      - '8080:8080'
     environment:
-      - PORT=3000
+      # - PORT=3000
       - NODEMAILER_HOST=smtp.forwardemail.net
       - NODEMAILER_PORT=465
       - NODEMAILER_SECURE=true
