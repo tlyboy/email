@@ -46,7 +46,7 @@ services:
     restart: unless-stopped
     # network_mode: host
     ports:
-      - '8080:8080'
+      - '3000:3000'
     environment:
       # - PORT=3000
       - NODEMAILER_HOST=smtp.forwardemail.net
