@@ -44,7 +44,7 @@ services:
   proxy:
     image: tlyboy/email
     restart: unless-stopped
-    # network_mode: "host"
+    # network_mode: host
     ports:
       - '8080:8080'
     environment:
