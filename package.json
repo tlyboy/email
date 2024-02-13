@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.14.3",
+  "packageManager": "pnpm@8.15.2",
   "scripts": {
     "build": "nitropack build",
     "dev": "nitropack dev",
@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "nitropack": "latest",
-    "nodemailer": "^6.9.8"
+    "nodemailer": "^6.9.9"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.3",
+    "@antfu/eslint-config": "^2.6.4",
     "@types/nodemailer": "^6.4.14",
     "eslint": "^8.56.0"
   }
