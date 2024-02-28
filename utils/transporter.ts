@@ -1,7 +1,13 @@
 import process from 'node:process'
 import nodemailer from 'nodemailer'
 
-const { NODEMAILER_HOST, NODEMAILER_PORT, NODEMAILER_SECURE, NODEMAILER_AUTH_USER, NODEMAILER_AUTH_PASS } = process.env
+const {
+  NODEMAILER_HOST,
+  NODEMAILER_PORT,
+  NODEMAILER_SECURE,
+  NODEMAILER_AUTH_USER,
+  NODEMAILER_AUTH_PASS,
+} = process.env
 
 const transporter = nodemailer.createTransport({
   host: NODEMAILER_HOST,
