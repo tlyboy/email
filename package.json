@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "nitropack": "latest",
-    "nodemailer": "^6.9.10"
+    "nodemailer": "^6.9.12"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
