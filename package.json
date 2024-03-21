@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "nitropack": "latest",
-    "nodemailer": "^6.9.12"
+    "nodemailer": "^6.9.13"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
   },
-  "packageManager": "pnpm@8.15.4"
+  "packageManager": "pnpm@8.15.5"
 }
