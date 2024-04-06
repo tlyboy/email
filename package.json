@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nitropack build",
+    "dev": "nitropack dev",
+    "prepare": "nitropack prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nitropack": "latest",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": "20.x"
+  }
+}

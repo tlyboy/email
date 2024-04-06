@@ -1,0 +1,14 @@
+services:
+  proxy:
+    build: .
+    restart: unless-stopped
+    # network_mode: host
+    ports:
+      - 3000:3000
+    environment:
+      # - PORT=3000
+      - NODEMAILER_HOST=smtp.forwardemail.net
+      - NODEMAILER_PORT=465
+      - NODEMAILER_SECURE=true
+      - NODEMAILER_AUTH_USER=REPLACE-WITH-YOUR-ALIAS@YOURDOMAIN.COM
+      - NODEMAILER_AUTH_PASS=REPLACE-WITH-YOUR-GENERATED-PASSWORD
